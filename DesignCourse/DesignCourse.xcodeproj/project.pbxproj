@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB2E95761BB5288700E4DBD0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2E95611BB5286F00E4DBD0 /* Alamofire.framework */; };
+		DB2E95771BB5288B00E4DBD0 /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2E95711BB5287B00E4DBD0 /* Haneke.framework */; };
+		DB2E957A1BB8DB8700E4DBD0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95791BB8DB8700E4DBD0 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DB2E95C71BB8EB3E00E4DBD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB2E958F1BB8EB3E00E4DBD0 /* InfoPlist.strings */; settings = {ASSET_TAGS = (); }; };
+		DB2E95C81BB8EB3E00E4DBD0 /* pop-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB2E95911BB8EB3E00E4DBD0 /* pop-Info.plist */; settings = {ASSET_TAGS = (); }; };
+		DB2E95C91BB8EB3E00E4DBD0 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95961BB8EB3E00E4DBD0 /* POPAnimatableProperty.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95CA1BB8EB3E00E4DBD0 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95981BB8EB3E00E4DBD0 /* POPAnimation.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95CB1BB8EB3E00E4DBD0 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E959A1BB8EB3E00E4DBD0 /* POPAnimationEvent.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95CC1BB8EB3E00E4DBD0 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E959D1BB8EB3E00E4DBD0 /* POPAnimationExtras.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95CD1BB8EB3E00E4DBD0 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95A11BB8EB3E00E4DBD0 /* POPAnimationRuntime.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95CE1BB8EB3E00E4DBD0 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95A31BB8EB3E00E4DBD0 /* POPAnimationTracer.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95CF1BB8EB3E00E4DBD0 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95A61BB8EB3E00E4DBD0 /* POPAnimator.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95D01BB8EB3E00E4DBD0 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95A91BB8EB3E00E4DBD0 /* POPBasicAnimation.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95D11BB8EB3E00E4DBD0 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95AC1BB8EB3E00E4DBD0 /* POPCGUtils.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95D21BB8EB3E00E4DBD0 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95AE1BB8EB3E00E4DBD0 /* POPCustomAnimation.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95D31BB8EB3E00E4DBD0 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95B01BB8EB3E00E4DBD0 /* POPDecayAnimation.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95D41BB8EB3E00E4DBD0 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95B41BB8EB3E00E4DBD0 /* POPGeometry.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95D51BB8EB3E00E4DBD0 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95B61BB8EB3E00E4DBD0 /* POPLayerExtras.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95D61BB8EB3E00E4DBD0 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95B81BB8EB3E00E4DBD0 /* POPMath.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95D71BB8EB3E00E4DBD0 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95BA1BB8EB3E00E4DBD0 /* POPPropertyAnimation.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95D81BB8EB3E00E4DBD0 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95BD1BB8EB3E00E4DBD0 /* POPSpringAnimation.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95D91BB8EB3E00E4DBD0 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95C11BB8EB3E00E4DBD0 /* POPVector.mm */; settings = {ASSET_TAGS = (); }; };
+		DB2E95DA1BB8EB3E00E4DBD0 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95C41BB8EB3E00E4DBD0 /* TransformationMatrix.cpp */; settings = {ASSET_TAGS = (); }; };
+		DB997BC01BB3D8480037FD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB997BBF1BB3D8480037FD93 /* AppDelegate.swift */; };
+		DB997BC21BB3D8480037FD93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB997BC11BB3D8480037FD93 /* ViewController.swift */; };
+		DB997BC51BB3D8480037FD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB997BC31BB3D8480037FD93 /* Main.storyboard */; };
+		DB997BC71BB3D8480037FD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB997BC61BB3D8480037FD93 /* Assets.xcassets */; };
+		DB997BCA1BB3D8480037FD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB997BC81BB3D8480037FD93 /* LaunchScreen.storyboard */; };
+		DB997BD51BB3D8480037FD93 /* DesignCourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB997BD41BB3D8480037FD93 /* DesignCourseTests.swift */; };
+		DB997BE01BB3D8480037FD93 /* DesignCourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB997BDF1BB3D8480037FD93 /* DesignCourseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB2E95601BB5286F00E4DBD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2E95581BB5286F00E4DBD0 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		DB2E95621BB5286F00E4DBD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2E95581BB5286F00E4DBD0 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		DB2E95641BB5286F00E4DBD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2E95581BB5286F00E4DBD0 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		DB2E95661BB5286F00E4DBD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2E95581BB5286F00E4DBD0 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		DB2E95681BB5286F00E4DBD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2E95581BB5286F00E4DBD0 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		DB2E95701BB5287B00E4DBD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2E956A1BB5287A00E4DBD0 /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A095C9561980418C00CD0F4C;
+			remoteInfo = Haneke;
+		};
+		DB2E95721BB5287B00E4DBD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2E956A1BB5287A00E4DBD0 /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A095C9611980418C00CD0F4C;
+			remoteInfo = HanekeTests;
+		};
+		DB2E95741BB5287B00E4DBD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2E956A1BB5287A00E4DBD0 /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0026E9A19C9BFBC004DE0C6;
+			remoteInfo = HanekeDemo;
+		};
+		DB997BD11BB3D8480037FD93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB997BB41BB3D8480037FD93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB997BBB1BB3D8480037FD93;
+			remoteInfo = DesignCourse;
+		};
+		DB997BDC1BB3D8480037FD93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB997BB41BB3D8480037FD93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB997BBB1BB3D8480037FD93;
+			remoteInfo = DesignCourse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB2E95581BB5286F00E4DBD0 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = ../../../OpenSource/swift/Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		DB2E956A1BB5287A00E4DBD0 /* Haneke.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Haneke.xcodeproj; path = ../../../OpenSource/swift/HanekeSwift/Haneke.xcodeproj; sourceTree = "<group>"; };
+		DB2E95791BB8DB8700E4DBD0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DB2E95901BB8EB3E00E4DBD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB2E95911BB8EB3E00E4DBD0 /* pop-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pop-Info.plist"; sourceTree = "<group>"; };
+		DB2E95921BB8EB3E00E4DBD0 /* pop-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pop-Prefix.pch"; sourceTree = "<group>"; };
+		DB2E95931BB8EB3E00E4DBD0 /* POP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POP.h; sourceTree = "<group>"; };
+		DB2E95941BB8EB3E00E4DBD0 /* POPAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAction.h; sourceTree = "<group>"; };
+		DB2E95951BB8EB3E00E4DBD0 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimatableProperty.h; sourceTree = "<group>"; };
+		DB2E95961BB8EB3E00E4DBD0 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		DB2E95971BB8EB3E00E4DBD0 /* POPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimation.h; sourceTree = "<group>"; };
+		DB2E95981BB8EB3E00E4DBD0 /* POPAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimation.mm; sourceTree = "<group>"; };
+		DB2E95991BB8EB3E00E4DBD0 /* POPAnimationEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationEvent.h; sourceTree = "<group>"; };
+		DB2E959A1BB8EB3E00E4DBD0 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationEvent.mm; sourceTree = "<group>"; };
+		DB2E959B1BB8EB3E00E4DBD0 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		DB2E959C1BB8EB3E00E4DBD0 /* POPAnimationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationExtras.h; sourceTree = "<group>"; };
+		DB2E959D1BB8EB3E00E4DBD0 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationExtras.mm; sourceTree = "<group>"; };
+		DB2E959E1BB8EB3E00E4DBD0 /* POPAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationInternal.h; sourceTree = "<group>"; };
+		DB2E959F1BB8EB3E00E4DBD0 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationPrivate.h; sourceTree = "<group>"; };
+		DB2E95A01BB8EB3E00E4DBD0 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationRuntime.h; sourceTree = "<group>"; };
+		DB2E95A11BB8EB3E00E4DBD0 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		DB2E95A21BB8EB3E00E4DBD0 /* POPAnimationTracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracer.h; sourceTree = "<group>"; };
+		DB2E95A31BB8EB3E00E4DBD0 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationTracer.mm; sourceTree = "<group>"; };
+		DB2E95A41BB8EB3E00E4DBD0 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		DB2E95A51BB8EB3E00E4DBD0 /* POPAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimator.h; sourceTree = "<group>"; };
+		DB2E95A61BB8EB3E00E4DBD0 /* POPAnimator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimator.mm; sourceTree = "<group>"; };
+		DB2E95A71BB8EB3E00E4DBD0 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		DB2E95A81BB8EB3E00E4DBD0 /* POPBasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimation.h; sourceTree = "<group>"; };
+		DB2E95A91BB8EB3E00E4DBD0 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPBasicAnimation.mm; sourceTree = "<group>"; };
+		DB2E95AA1BB8EB3E00E4DBD0 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		DB2E95AB1BB8EB3E00E4DBD0 /* POPCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCGUtils.h; sourceTree = "<group>"; };
+		DB2E95AC1BB8EB3E00E4DBD0 /* POPCGUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCGUtils.mm; sourceTree = "<group>"; };
+		DB2E95AD1BB8EB3E00E4DBD0 /* POPCustomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCustomAnimation.h; sourceTree = "<group>"; };
+		DB2E95AE1BB8EB3E00E4DBD0 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCustomAnimation.mm; sourceTree = "<group>"; };
+		DB2E95AF1BB8EB3E00E4DBD0 /* POPDecayAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimation.h; sourceTree = "<group>"; };
+		DB2E95B01BB8EB3E00E4DBD0 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPDecayAnimation.mm; sourceTree = "<group>"; };
+		DB2E95B11BB8EB3E00E4DBD0 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		DB2E95B21BB8EB3E00E4DBD0 /* POPDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDefines.h; sourceTree = "<group>"; };
+		DB2E95B31BB8EB3E00E4DBD0 /* POPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPGeometry.h; sourceTree = "<group>"; };
+		DB2E95B41BB8EB3E00E4DBD0 /* POPGeometry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPGeometry.mm; sourceTree = "<group>"; };
+		DB2E95B51BB8EB3E00E4DBD0 /* POPLayerExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPLayerExtras.h; sourceTree = "<group>"; };
+		DB2E95B61BB8EB3E00E4DBD0 /* POPLayerExtras.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPLayerExtras.mm; sourceTree = "<group>"; };
+		DB2E95B71BB8EB3E00E4DBD0 /* POPMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPMath.h; sourceTree = "<group>"; };
+		DB2E95B81BB8EB3E00E4DBD0 /* POPMath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPMath.mm; sourceTree = "<group>"; };
+		DB2E95B91BB8EB3E00E4DBD0 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimation.h; sourceTree = "<group>"; };
+		DB2E95BA1BB8EB3E00E4DBD0 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		DB2E95BB1BB8EB3E00E4DBD0 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		DB2E95BC1BB8EB3E00E4DBD0 /* POPSpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimation.h; sourceTree = "<group>"; };
+		DB2E95BD1BB8EB3E00E4DBD0 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPSpringAnimation.mm; sourceTree = "<group>"; };
+		DB2E95BE1BB8EB3E00E4DBD0 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		DB2E95BF1BB8EB3E00E4DBD0 /* POPSpringSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringSolver.h; sourceTree = "<group>"; };
+		DB2E95C01BB8EB3E00E4DBD0 /* POPVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPVector.h; sourceTree = "<group>"; };
+		DB2E95C11BB8EB3E00E4DBD0 /* POPVector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPVector.mm; sourceTree = "<group>"; };
+		DB2E95C31BB8EB3E00E4DBD0 /* FloatConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatConversion.h; sourceTree = "<group>"; };
+		DB2E95C41BB8EB3E00E4DBD0 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransformationMatrix.cpp; sourceTree = "<group>"; };
+		DB2E95C51BB8EB3E00E4DBD0 /* TransformationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformationMatrix.h; sourceTree = "<group>"; };
+		DB2E95C61BB8EB3E00E4DBD0 /* UnitBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
+		DB2E95DC1BB8EF5C00E4DBD0 /* DesignCourse-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DesignCourse-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB997BBC1BB3D8480037FD93 /* DesignCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB997BBF1BB3D8480037FD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB997BC11BB3D8480037FD93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB997BC41BB3D8480037FD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB997BC61BB3D8480037FD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB997BC91BB3D8480037FD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB997BCB1BB3D8480037FD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB997BD01BB3D8480037FD93 /* DesignCourseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignCourseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB997BD41BB3D8480037FD93 /* DesignCourseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCourseTests.swift; sourceTree = "<group>"; };
+		DB997BD61BB3D8480037FD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB997BDB1BB3D8480037FD93 /* DesignCourseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignCourseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB997BDF1BB3D8480037FD93 /* DesignCourseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCourseUITests.swift; sourceTree = "<group>"; };
+		DB997BE11BB3D8480037FD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB997BB91BB3D8480037FD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2E95771BB5288B00E4DBD0 /* Haneke.framework in Frameworks */,
+				DB2E95761BB5288700E4DBD0 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB997BCD1BB3D8480037FD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB997BD81BB3D8480037FD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2E95591BB5286F00E4DBD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E95611BB5286F00E4DBD0 /* Alamofire.framework */,
+				DB2E95631BB5286F00E4DBD0 /* Alamofire.framework */,
+				DB2E95651BB5286F00E4DBD0 /* Alamofire.framework */,
+				DB2E95671BB5286F00E4DBD0 /* Alamofire iOS Tests.xctest */,
+				DB2E95691BB5286F00E4DBD0 /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2E956B1BB5287A00E4DBD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E95711BB5287B00E4DBD0 /* Haneke.framework */,
+				DB2E95731BB5287B00E4DBD0 /* HanekeTests.xctest */,
+				DB2E95751BB5287B00E4DBD0 /* HanekeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2E95781BB8DB5B00E4DBD0 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E95791BB8DB8700E4DBD0 /* HomeViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		DB2E958D1BB8EAEF00E4DBD0 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E958E1BB8EB3E00E4DBD0 /* pop */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		DB2E958E1BB8EB3E00E4DBD0 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E958F1BB8EB3E00E4DBD0 /* InfoPlist.strings */,
+				DB2E95911BB8EB3E00E4DBD0 /* pop-Info.plist */,
+				DB2E95921BB8EB3E00E4DBD0 /* pop-Prefix.pch */,
+				DB2E95931BB8EB3E00E4DBD0 /* POP.h */,
+				DB2E95941BB8EB3E00E4DBD0 /* POPAction.h */,
+				DB2E95951BB8EB3E00E4DBD0 /* POPAnimatableProperty.h */,
+				DB2E95961BB8EB3E00E4DBD0 /* POPAnimatableProperty.mm */,
+				DB2E95971BB8EB3E00E4DBD0 /* POPAnimation.h */,
+				DB2E95981BB8EB3E00E4DBD0 /* POPAnimation.mm */,
+				DB2E95991BB8EB3E00E4DBD0 /* POPAnimationEvent.h */,
+				DB2E959A1BB8EB3E00E4DBD0 /* POPAnimationEvent.mm */,
+				DB2E959B1BB8EB3E00E4DBD0 /* POPAnimationEventInternal.h */,
+				DB2E959C1BB8EB3E00E4DBD0 /* POPAnimationExtras.h */,
+				DB2E959D1BB8EB3E00E4DBD0 /* POPAnimationExtras.mm */,
+				DB2E959E1BB8EB3E00E4DBD0 /* POPAnimationInternal.h */,
+				DB2E959F1BB8EB3E00E4DBD0 /* POPAnimationPrivate.h */,
+				DB2E95A01BB8EB3E00E4DBD0 /* POPAnimationRuntime.h */,
+				DB2E95A11BB8EB3E00E4DBD0 /* POPAnimationRuntime.mm */,
+				DB2E95A21BB8EB3E00E4DBD0 /* POPAnimationTracer.h */,
+				DB2E95A31BB8EB3E00E4DBD0 /* POPAnimationTracer.mm */,
+				DB2E95A41BB8EB3E00E4DBD0 /* POPAnimationTracerInternal.h */,
+				DB2E95A51BB8EB3E00E4DBD0 /* POPAnimator.h */,
+				DB2E95A61BB8EB3E00E4DBD0 /* POPAnimator.mm */,
+				DB2E95A71BB8EB3E00E4DBD0 /* POPAnimatorPrivate.h */,
+				DB2E95A81BB8EB3E00E4DBD0 /* POPBasicAnimation.h */,
+				DB2E95A91BB8EB3E00E4DBD0 /* POPBasicAnimation.mm */,
+				DB2E95AA1BB8EB3E00E4DBD0 /* POPBasicAnimationInternal.h */,
+				DB2E95AB1BB8EB3E00E4DBD0 /* POPCGUtils.h */,
+				DB2E95AC1BB8EB3E00E4DBD0 /* POPCGUtils.mm */,
+				DB2E95AD1BB8EB3E00E4DBD0 /* POPCustomAnimation.h */,
+				DB2E95AE1BB8EB3E00E4DBD0 /* POPCustomAnimation.mm */,
+				DB2E95AF1BB8EB3E00E4DBD0 /* POPDecayAnimation.h */,
+				DB2E95B01BB8EB3E00E4DBD0 /* POPDecayAnimation.mm */,
+				DB2E95B11BB8EB3E00E4DBD0 /* POPDecayAnimationInternal.h */,
+				DB2E95B21BB8EB3E00E4DBD0 /* POPDefines.h */,
+				DB2E95B31BB8EB3E00E4DBD0 /* POPGeometry.h */,
+				DB2E95B41BB8EB3E00E4DBD0 /* POPGeometry.mm */,
+				DB2E95B51BB8EB3E00E4DBD0 /* POPLayerExtras.h */,
+				DB2E95B61BB8EB3E00E4DBD0 /* POPLayerExtras.mm */,
+				DB2E95B71BB8EB3E00E4DBD0 /* POPMath.h */,
+				DB2E95B81BB8EB3E00E4DBD0 /* POPMath.mm */,
+				DB2E95B91BB8EB3E00E4DBD0 /* POPPropertyAnimation.h */,
+				DB2E95BA1BB8EB3E00E4DBD0 /* POPPropertyAnimation.mm */,
+				DB2E95BB1BB8EB3E00E4DBD0 /* POPPropertyAnimationInternal.h */,
+				DB2E95BC1BB8EB3E00E4DBD0 /* POPSpringAnimation.h */,
+				DB2E95BD1BB8EB3E00E4DBD0 /* POPSpringAnimation.mm */,
+				DB2E95BE1BB8EB3E00E4DBD0 /* POPSpringAnimationInternal.h */,
+				DB2E95BF1BB8EB3E00E4DBD0 /* POPSpringSolver.h */,
+				DB2E95C01BB8EB3E00E4DBD0 /* POPVector.h */,
+				DB2E95C11BB8EB3E00E4DBD0 /* POPVector.mm */,
+				DB2E95C21BB8EB3E00E4DBD0 /* WebCore */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		DB2E95C21BB8EB3E00E4DBD0 /* WebCore */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E95C31BB8EB3E00E4DBD0 /* FloatConversion.h */,
+				DB2E95C41BB8EB3E00E4DBD0 /* TransformationMatrix.cpp */,
+				DB2E95C51BB8EB3E00E4DBD0 /* TransformationMatrix.h */,
+				DB2E95C61BB8EB3E00E4DBD0 /* UnitBezier.h */,
+			);
+			path = WebCore;
+			sourceTree = "<group>";
+		};
+		DB997BB31BB3D8480037FD93 = {
+			isa = PBXGroup;
+			children = (
+				DB2E956A1BB5287A00E4DBD0 /* Haneke.xcodeproj */,
+				DB2E95581BB5286F00E4DBD0 /* Alamofire.xcodeproj */,
+				DB997BBE1BB3D8480037FD93 /* DesignCourse */,
+				DB997BD31BB3D8480037FD93 /* DesignCourseTests */,
+				DB997BDE1BB3D8480037FD93 /* DesignCourseUITests */,
+				DB997BBD1BB3D8480037FD93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB997BBD1BB3D8480037FD93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB997BBC1BB3D8480037FD93 /* DesignCourse.app */,
+				DB997BD01BB3D8480037FD93 /* DesignCourseTests.xctest */,
+				DB997BDB1BB3D8480037FD93 /* DesignCourseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB997BBE1BB3D8480037FD93 /* DesignCourse */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E958D1BB8EAEF00E4DBD0 /* libs */,
+				DB2E95781BB8DB5B00E4DBD0 /* controllers */,
+				DB997BBF1BB3D8480037FD93 /* AppDelegate.swift */,
+				DB997BC11BB3D8480037FD93 /* ViewController.swift */,
+				DB2E95DC1BB8EF5C00E4DBD0 /* DesignCourse-Bridging-Header.h */,
+				DB997BC31BB3D8480037FD93 /* Main.storyboard */,
+				DB997BC61BB3D8480037FD93 /* Assets.xcassets */,
+				DB997BC81BB3D8480037FD93 /* LaunchScreen.storyboard */,
+				DB997BCB1BB3D8480037FD93 /* Info.plist */,
+			);
+			path = DesignCourse;
+			sourceTree = "<group>";
+		};
+		DB997BD31BB3D8480037FD93 /* DesignCourseTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB997BD41BB3D8480037FD93 /* DesignCourseTests.swift */,
+				DB997BD61BB3D8480037FD93 /* Info.plist */,
+			);
+			path = DesignCourseTests;
+			sourceTree = "<group>";
+		};
+		DB997BDE1BB3D8480037FD93 /* DesignCourseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB997BDF1BB3D8480037FD93 /* DesignCourseUITests.swift */,
+				DB997BE11BB3D8480037FD93 /* Info.plist */,
+			);
+			path = DesignCourseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB997BBB1BB3D8480037FD93 /* DesignCourse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB997BE41BB3D8480037FD93 /* Build configuration list for PBXNativeTarget "DesignCourse" */;
+			buildPhases = (
+				DB997BB81BB3D8480037FD93 /* Sources */,
+				DB997BB91BB3D8480037FD93 /* Frameworks */,
+				DB997BBA1BB3D8480037FD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignCourse;
+			productName = DesignCourse;
+			productReference = DB997BBC1BB3D8480037FD93 /* DesignCourse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB997BCF1BB3D8480037FD93 /* DesignCourseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB997BE71BB3D8480037FD93 /* Build configuration list for PBXNativeTarget "DesignCourseTests" */;
+			buildPhases = (
+				DB997BCC1BB3D8480037FD93 /* Sources */,
+				DB997BCD1BB3D8480037FD93 /* Frameworks */,
+				DB997BCE1BB3D8480037FD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB997BD21BB3D8480037FD93 /* PBXTargetDependency */,
+			);
+			name = DesignCourseTests;
+			productName = DesignCourseTests;
+			productReference = DB997BD01BB3D8480037FD93 /* DesignCourseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB997BDA1BB3D8480037FD93 /* DesignCourseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB997BEA1BB3D8480037FD93 /* Build configuration list for PBXNativeTarget "DesignCourseUITests" */;
+			buildPhases = (
+				DB997BD71BB3D8480037FD93 /* Sources */,
+				DB997BD81BB3D8480037FD93 /* Frameworks */,
+				DB997BD91BB3D8480037FD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB997BDD1BB3D8480037FD93 /* PBXTargetDependency */,
+			);
+			name = DesignCourseUITests;
+			productName = DesignCourseUITests;
+			productReference = DB997BDB1BB3D8480037FD93 /* DesignCourseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB997BB41BB3D8480037FD93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = geekTeam;
+				TargetAttributes = {
+					DB997BBB1BB3D8480037FD93 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = FNB4FR5EG6;
+					};
+					DB997BCF1BB3D8480037FD93 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DB997BBB1BB3D8480037FD93;
+					};
+					DB997BDA1BB3D8480037FD93 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DB997BBB1BB3D8480037FD93;
+					};
+				};
+			};
+			buildConfigurationList = DB997BB71BB3D8480037FD93 /* Build configuration list for PBXProject "DesignCourse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB997BB31BB3D8480037FD93;
+			productRefGroup = DB997BBD1BB3D8480037FD93 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DB2E95591BB5286F00E4DBD0 /* Products */;
+					ProjectRef = DB2E95581BB5286F00E4DBD0 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = DB2E956B1BB5287A00E4DBD0 /* Products */;
+					ProjectRef = DB2E956A1BB5287A00E4DBD0 /* Haneke.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DB997BBB1BB3D8480037FD93 /* DesignCourse */,
+				DB997BCF1BB3D8480037FD93 /* DesignCourseTests */,
+				DB997BDA1BB3D8480037FD93 /* DesignCourseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DB2E95611BB5286F00E4DBD0 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = DB2E95601BB5286F00E4DBD0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DB2E95631BB5286F00E4DBD0 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = DB2E95621BB5286F00E4DBD0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DB2E95651BB5286F00E4DBD0 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = DB2E95641BB5286F00E4DBD0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DB2E95671BB5286F00E4DBD0 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = DB2E95661BB5286F00E4DBD0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DB2E95691BB5286F00E4DBD0 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = DB2E95681BB5286F00E4DBD0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DB2E95711BB5287B00E4DBD0 /* Haneke.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Haneke.framework;
+			remoteRef = DB2E95701BB5287B00E4DBD0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DB2E95731BB5287B00E4DBD0 /* HanekeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HanekeTests.xctest;
+			remoteRef = DB2E95721BB5287B00E4DBD0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DB2E95751BB5287B00E4DBD0 /* HanekeDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HanekeDemo.app;
+			remoteRef = DB2E95741BB5287B00E4DBD0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB997BBA1BB3D8480037FD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB997BCA1BB3D8480037FD93 /* LaunchScreen.storyboard in Resources */,
+				DB2E95C71BB8EB3E00E4DBD0 /* InfoPlist.strings in Resources */,
+				DB997BC71BB3D8480037FD93 /* Assets.xcassets in Resources */,
+				DB2E95C81BB8EB3E00E4DBD0 /* pop-Info.plist in Resources */,
+				DB997BC51BB3D8480037FD93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB997BCE1BB3D8480037FD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB997BD91BB3D8480037FD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB997BB81BB3D8480037FD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB997BC21BB3D8480037FD93 /* ViewController.swift in Sources */,
+				DB2E95CD1BB8EB3E00E4DBD0 /* POPAnimationRuntime.mm in Sources */,
+				DB2E95D91BB8EB3E00E4DBD0 /* POPVector.mm in Sources */,
+				DB2E95CA1BB8EB3E00E4DBD0 /* POPAnimation.mm in Sources */,
+				DB2E95CE1BB8EB3E00E4DBD0 /* POPAnimationTracer.mm in Sources */,
+				DB997BC01BB3D8480037FD93 /* AppDelegate.swift in Sources */,
+				DB2E95D41BB8EB3E00E4DBD0 /* POPGeometry.mm in Sources */,
+				DB2E95DA1BB8EB3E00E4DBD0 /* TransformationMatrix.cpp in Sources */,
+				DB2E95CC1BB8EB3E00E4DBD0 /* POPAnimationExtras.mm in Sources */,
+				DB2E95CB1BB8EB3E00E4DBD0 /* POPAnimationEvent.mm in Sources */,
+				DB2E95C91BB8EB3E00E4DBD0 /* POPAnimatableProperty.mm in Sources */,
+				DB2E95CF1BB8EB3E00E4DBD0 /* POPAnimator.mm in Sources */,
+				DB2E95D31BB8EB3E00E4DBD0 /* POPDecayAnimation.mm in Sources */,
+				DB2E95D81BB8EB3E00E4DBD0 /* POPSpringAnimation.mm in Sources */,
+				DB2E95D71BB8EB3E00E4DBD0 /* POPPropertyAnimation.mm in Sources */,
+				DB2E95D01BB8EB3E00E4DBD0 /* POPBasicAnimation.mm in Sources */,
+				DB2E95D51BB8EB3E00E4DBD0 /* POPLayerExtras.mm in Sources */,
+				DB2E957A1BB8DB8700E4DBD0 /* HomeViewController.swift in Sources */,
+				DB2E95D11BB8EB3E00E4DBD0 /* POPCGUtils.mm in Sources */,
+				DB2E95D61BB8EB3E00E4DBD0 /* POPMath.mm in Sources */,
+				DB2E95D21BB8EB3E00E4DBD0 /* POPCustomAnimation.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB997BCC1BB3D8480037FD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB997BD51BB3D8480037FD93 /* DesignCourseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB997BD71BB3D8480037FD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB997BE01BB3D8480037FD93 /* DesignCourseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB997BD21BB3D8480037FD93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB997BBB1BB3D8480037FD93 /* DesignCourse */;
+			targetProxy = DB997BD11BB3D8480037FD93 /* PBXContainerItemProxy */;
+		};
+		DB997BDD1BB3D8480037FD93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB997BBB1BB3D8480037FD93 /* DesignCourse */;
+			targetProxy = DB997BDC1BB3D8480037FD93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB2E958F1BB8EB3E00E4DBD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2E95901BB8EB3E00E4DBD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB997BC31BB3D8480037FD93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB997BC41BB3D8480037FD93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB997BC81BB3D8480037FD93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB997BC91BB3D8480037FD93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB997BE21BB3D8480037FD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DB997BE31BB3D8480037FD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB997BE51BB3D8480037FD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DesignCourse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.DesignCourse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DesignCourse/DesignCourse-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		DB997BE61BB3D8480037FD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DesignCourse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.DesignCourse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DesignCourse/DesignCourse-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		DB997BE81BB3D8480037FD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DesignCourseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.DesignCourseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignCourse.app/DesignCourse";
+			};
+			name = Debug;
+		};
+		DB997BE91BB3D8480037FD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DesignCourseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.DesignCourseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignCourse.app/DesignCourse";
+			};
+			name = Release;
+		};
+		DB997BEB1BB3D8480037FD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DesignCourseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.DesignCourseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DesignCourse;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB997BEC1BB3D8480037FD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DesignCourseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.DesignCourseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DesignCourse;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB997BB71BB3D8480037FD93 /* Build configuration list for PBXProject "DesignCourse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB997BE21BB3D8480037FD93 /* Debug */,
+				DB997BE31BB3D8480037FD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB997BE41BB3D8480037FD93 /* Build configuration list for PBXNativeTarget "DesignCourse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB997BE51BB3D8480037FD93 /* Debug */,
+				DB997BE61BB3D8480037FD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB997BE71BB3D8480037FD93 /* Build configuration list for PBXNativeTarget "DesignCourseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB997BE81BB3D8480037FD93 /* Debug */,
+				DB997BE91BB3D8480037FD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB997BEA1BB3D8480037FD93 /* Build configuration list for PBXNativeTarget "DesignCourseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB997BEB1BB3D8480037FD93 /* Debug */,
+				DB997BEC1BB3D8480037FD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB997BB41BB3D8480037FD93 /* Project object */;
+}

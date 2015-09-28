@@ -20,14 +20,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VxW-jN-87Z">
-                                        <rect key="frame" x="-220" y="0.0" width="220" height="768"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="220" height="768"/>
                                         <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="其他课程" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zc3-Yd-3wE">
+                                                <rect key="frame" x="20" y="20" width="180" height="40"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <color key="textColor" red="0.56862745098039214" green="0.59215686274509804" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YVZ-oW-JvZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="220" height="768"/>
+                                                <rect key="frame" x="0.0" y="60" width="220" height="768"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </tableView>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gfm-Bs-n4Y">
                                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
@@ -38,6 +43,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNT-mk-iKz">
                                                         <rect key="frame" x="0.0" y="0.0" width="50" height="60"/>
                                                         <state key="normal" title="Button"/>
+                                                        <connections>
+                                                            <action selector="menuBtnClick:" destination="FP4-eH-LoH" eventType="touchUpInside" id="xQS-FA-9IY"/>
+                                                        </connections>
                                                     </button>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lj9-OD-XFj">
                                                         <rect key="frame" x="70" y="0.0" width="60" height="60"/>
@@ -109,7 +117,9 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
+                        <outlet property="contentPanel" destination="Gfm-Bs-n4Y" id="hN5-UT-0fN"/>
                         <outlet property="contentScrollView" destination="qyD-YQ-kFp" id="Dy7-4D-L1c"/>
+                        <outlet property="menuPanel" destination="VxW-jN-87Z" id="roG-Es-nRW"/>
                         <outlet property="menuTableView" destination="YVZ-oW-JvZ" id="LhI-qI-b33"/>
                         <outlet property="menuView" destination="VxW-jN-87Z" id="LqF-MU-rW8"/>
                     </connections>

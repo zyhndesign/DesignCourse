@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     @IBOutlet weak var menuView: UIView!
     @IBOutlet weak var menuTableView: UITableView!
@@ -17,11 +17,24 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var contentPanel: UIView!
     @IBOutlet weak var contentScrollView: UIScrollView!
     
+    lazy var menuItems: NSArray = {
+        let path = NSBundle.mainBundle().pathForResource("MenuItems", ofType: "plist")
+        return NSArray(contentsOfFile: path!)!
+        }()
+    
     var menuOpenFlag:Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        menuTableView.dataSource = self
+        menuTableView.delegate = self
+        
+        let view = UIView()
+        view.backgroundColor = UIColor.clearColor()
+        menuTableView.tableFooterView = view
+        menuTableView.backgroundColor = menuPanel.backgroundColor
     }
     
     override func didReceiveMemoryWarning() {
@@ -29,6 +42,25 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return menuItems.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("MenuItemCell") as! MenuItemCell
+        let menuItem = menuItems[indexPath.row] as! NSDictionary
+        cell.configureForMenuItem(menuItem)
+        cell.backgroundColor = menuPanel.backgroundColor
+        return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.menuSpringAnimation(contentPanel)
+    }
     
     @IBAction func menuBtnClick(sender: AnyObject) {
         

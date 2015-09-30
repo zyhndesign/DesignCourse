@@ -31,8 +31,34 @@
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YVZ-oW-JvZ">
                                                 <rect key="frame" x="0.0" y="60" width="220" height="768"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <prototypes>
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuItemCell" id="xSf-32-gLG" customClass="MenuItemCell" customModule="DesignCourse" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="28" width="220" height="44"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xSf-32-gLG" id="Wx1-Ei-REO">
+                                                            <rect key="frame" x="0.0" y="0.0" width="220" height="43"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5g-Fb-fhg">
+                                                                    <rect key="frame" x="60" y="5" width="142" height="31"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cnU-nP-kGD">
+                                                                    <rect key="frame" x="20" y="7" width="30" height="30"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                        </tableViewCellContentView>
+                                                        <connections>
+                                                            <outlet property="courseName" destination="C5g-Fb-fhg" id="u16-rc-bWj"/>
+                                                            <outlet property="iconImage" destination="cnU-nP-kGD" id="UQh-Ip-5lq"/>
+                                                        </connections>
+                                                    </tableViewCell>
+                                                </prototypes>
                                             </tableView>
                                         </subviews>
+                                        <color key="backgroundColor" red="0.13333333333333333" green="0.1764705882352941" blue="0.30588235294117649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gfm-Bs-n4Y">
                                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
@@ -40,19 +66,19 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ISe-0J-SbY">
                                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="60"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNT-mk-iKz">
-                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="60"/>
-                                                        <state key="normal" title="Button"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNT-mk-iKz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="40" height="60"/>
+                                                        <state key="normal" image="homeMenuBtn"/>
                                                         <connections>
                                                             <action selector="menuBtnClick:" destination="FP4-eH-LoH" eventType="touchUpInside" id="xQS-FA-9IY"/>
                                                         </connections>
                                                     </button>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lj9-OD-XFj">
-                                                        <rect key="frame" x="70" y="0.0" width="60" height="60"/>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gysjs_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Lj9-OD-XFj">
+                                                        <rect key="frame" x="70" y="15" width="30" height="30"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="工业设计史" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rd9-9T-F3N">
-                                                        <rect key="frame" x="140" y="0.0" width="160" height="60"/>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                        <rect key="frame" x="109" y="0.0" width="160" height="60"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -108,10 +134,10 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.1764705882" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="8me-qT-fIC"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -129,4 +155,8 @@
             <point key="canvasLocation" x="577" y="-402"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="gysjs_logo" width="30" height="30"/>
+        <image name="homeMenuBtn" width="40" height="60"/>
+    </resources>
 </document>

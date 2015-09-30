@@ -30,6 +30,8 @@
 		DB2E95D81BB8EB3E00E4DBD0 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95BD1BB8EB3E00E4DBD0 /* POPSpringAnimation.mm */; settings = {ASSET_TAGS = (); }; };
 		DB2E95D91BB8EB3E00E4DBD0 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95C11BB8EB3E00E4DBD0 /* POPVector.mm */; settings = {ASSET_TAGS = (); }; };
 		DB2E95DA1BB8EB3E00E4DBD0 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95C41BB8EB3E00E4DBD0 /* TransformationMatrix.cpp */; settings = {ASSET_TAGS = (); }; };
+		DB2E95DF1BBB775B00E4DBD0 /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB2E95DE1BBB775B00E4DBD0 /* MenuItems.plist */; settings = {ASSET_TAGS = (); }; };
+		DB2E95E31BBB7F9C00E4DBD0 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95E21BBB7F9C00E4DBD0 /* MenuItemCell.swift */; settings = {ASSET_TAGS = (); }; };
 		DB997BC01BB3D8480037FD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB997BBF1BB3D8480037FD93 /* AppDelegate.swift */; };
 		DB997BC21BB3D8480037FD93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB997BC11BB3D8480037FD93 /* ViewController.swift */; };
 		DB997BC51BB3D8480037FD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB997BC31BB3D8480037FD93 /* Main.storyboard */; };
@@ -171,6 +173,8 @@
 		DB2E95C51BB8EB3E00E4DBD0 /* TransformationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformationMatrix.h; sourceTree = "<group>"; };
 		DB2E95C61BB8EB3E00E4DBD0 /* UnitBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
 		DB2E95DC1BB8EF5C00E4DBD0 /* DesignCourse-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DesignCourse-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB2E95DE1BBB775B00E4DBD0 /* MenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MenuItems.plist; sourceTree = "<group>"; };
+		DB2E95E21BBB7F9C00E4DBD0 /* MenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
 		DB997BBC1BB3D8480037FD93 /* DesignCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB997BBF1BB3D8480037FD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB997BC11BB3D8480037FD93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -320,6 +324,21 @@
 			path = WebCore;
 			sourceTree = "<group>";
 		};
+		DB2E95E01BBB7D2F00E4DBD0 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		DB2E95E11BBB7F1200E4DBD0 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E95E21BBB7F9C00E4DBD0 /* MenuItemCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
 		DB997BB31BB3D8480037FD93 = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +364,8 @@
 		DB997BBE1BB3D8480037FD93 /* DesignCourse */ = {
 			isa = PBXGroup;
 			children = (
+				DB2E95E11BBB7F1200E4DBD0 /* cells */,
+				DB2E95E01BBB7D2F00E4DBD0 /* xibs */,
 				DB2E958D1BB8EAEF00E4DBD0 /* libs */,
 				DB2E95781BB8DB5B00E4DBD0 /* controllers */,
 				DB997BBF1BB3D8480037FD93 /* AppDelegate.swift */,
@@ -354,6 +375,7 @@
 				DB997BC61BB3D8480037FD93 /* Assets.xcassets */,
 				DB997BC81BB3D8480037FD93 /* LaunchScreen.storyboard */,
 				DB997BCB1BB3D8480037FD93 /* Info.plist */,
+				DB2E95DE1BBB775B00E4DBD0 /* MenuItems.plist */,
 			);
 			path = DesignCourse;
 			sourceTree = "<group>";
@@ -552,6 +574,7 @@
 			files = (
 				DB997BCA1BB3D8480037FD93 /* LaunchScreen.storyboard in Resources */,
 				DB2E95C71BB8EB3E00E4DBD0 /* InfoPlist.strings in Resources */,
+				DB2E95DF1BBB775B00E4DBD0 /* MenuItems.plist in Resources */,
 				DB997BC71BB3D8480037FD93 /* Assets.xcassets in Resources */,
 				DB2E95C81BB8EB3E00E4DBD0 /* pop-Info.plist in Resources */,
 				DB997BC51BB3D8480037FD93 /* Main.storyboard in Resources */,
@@ -592,6 +615,7 @@
 				DB2E95C91BB8EB3E00E4DBD0 /* POPAnimatableProperty.mm in Sources */,
 				DB2E95CF1BB8EB3E00E4DBD0 /* POPAnimator.mm in Sources */,
 				DB2E95D31BB8EB3E00E4DBD0 /* POPDecayAnimation.mm in Sources */,
+				DB2E95E31BBB7F9C00E4DBD0 /* MenuItemCell.swift in Sources */,
 				DB2E95D81BB8EB3E00E4DBD0 /* POPSpringAnimation.mm in Sources */,
 				DB2E95D71BB8EB3E00E4DBD0 /* POPPropertyAnimation.mm in Sources */,
 				DB2E95D01BB8EB3E00E4DBD0 /* POPBasicAnimation.mm in Sources */,

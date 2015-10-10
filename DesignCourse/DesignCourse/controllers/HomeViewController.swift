@@ -17,6 +17,12 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     @IBOutlet weak var contentPanel: UIView!
     @IBOutlet weak var contentScrollView: UIScrollView!
     
+    var homeViewController:UIViewController!;
+    var topicsPageViewController:UIViewController!;
+    var coursewareViewController:UIViewController!;
+    var videoViewController:UIViewController!;
+    var teachingMaterialViewController:UIViewController!;
+    
     lazy var menuItems: NSArray = {
         let path = NSBundle.mainBundle().pathForResource("MenuItems", ofType: "plist")
         return NSArray(contentsOfFile: path!)!
@@ -35,6 +41,34 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         view.backgroundColor = UIColor.clearColor()
         menuTableView.tableFooterView = view
         menuTableView.backgroundColor = menuPanel.backgroundColor
+        
+        homeViewController = HomeContentPanelViewController(nibName:"HomePageView",bundle:NSBundle.mainBundle())
+        homeViewController.view.frame = CGRectMake(0, 0, 1024, 708)
+        contentScrollView.addSubview(homeViewController.view)
+        self.addChildViewController(homeViewController)
+        
+        topicsPageViewController = TopicsPageViewController(nibName:"TopicsPageView",bundle:NSBundle.mainBundle())
+        topicsPageViewController.view.frame = CGRectMake(1024, 0, 1024, 708)
+        contentScrollView.addSubview(topicsPageViewController.view)
+        self.addChildViewController(topicsPageViewController)
+        
+        coursewareViewController = CoursewareViewController(nibName:"CoursewareView",bundle:NSBundle.mainBundle())
+        coursewareViewController.view.frame = CGRectMake(2048, 0, 1024, 708)
+        contentScrollView.addSubview(coursewareViewController.view)
+        self.addChildViewController(coursewareViewController)
+        
+        videoViewController = VideoViewController(nibName:"VideoView",bundle:NSBundle.mainBundle())
+        videoViewController.view.frame = CGRectMake(3072, 0, 1024, 708)
+        contentScrollView.addSubview(videoViewController.view)
+        self.addChildViewController(videoViewController)
+        
+        teachingMaterialViewController = TeachingMaterialViewController(nibName:"TeachingMaterialView",bundle:NSBundle.mainBundle())
+        teachingMaterialViewController.view.frame = CGRectMake(4096, 0, 1024, 708)
+        contentScrollView.addSubview(teachingMaterialViewController.view)
+        self.addChildViewController(teachingMaterialViewController)
+        
+        contentScrollView.contentSize = CGSizeMake(5120, 708);
+
     }
     
     override func didReceiveMemoryWarning() {

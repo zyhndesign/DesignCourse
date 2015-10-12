@@ -82,52 +82,70 @@
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iro-xR-HIV">
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iro-xR-HIV">
                                                         <rect key="frame" x="574" y="0.0" width="60" height="60"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                                         <state key="normal" title="首页">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="modelMenuClick:" destination="FP4-eH-LoH" eventType="touchUpInside" id="jPW-PD-z9B"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPF-aB-yW6">
+                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPF-aB-yW6">
                                                         <rect key="frame" x="643" y="0.0" width="60" height="60"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                                         <state key="normal" title="专题">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="modelMenuClick:" destination="FP4-eH-LoH" eventType="touchUpInside" id="7sh-bb-pNF"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Slr-GD-bDA">
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Slr-GD-bDA">
                                                         <rect key="frame" x="715" y="0.0" width="60" height="60"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                                         <state key="normal" title="课件">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="modelMenuClick:" destination="FP4-eH-LoH" eventType="touchUpInside" id="kkw-gA-L7J"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kws-Zs-oP8">
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kws-Zs-oP8">
                                                         <rect key="frame" x="786" y="0.0" width="60" height="60"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                                         <state key="normal" title="视频">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="modelMenuClick:" destination="FP4-eH-LoH" eventType="touchUpInside" id="gDz-b9-QlB"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OU4-e7-sLa">
+                                                    <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OU4-e7-sLa">
                                                         <rect key="frame" x="854" y="0.0" width="60" height="60"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                                         <state key="normal" title="教材">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="modelMenuClick:" destination="FP4-eH-LoH" eventType="touchUpInside" id="S3b-GS-vUo"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="peX-rS-msY">
+                                                    <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="peX-rS-msY">
                                                         <rect key="frame" x="927" y="0.0" width="65" height="60"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                                         <state key="normal" title="时间线">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="modelMenuClick:" destination="FP4-eH-LoH" eventType="touchUpInside" id="7Pc-ty-a1E"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.16470588235294117" green="0.22745098039215686" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
                                             </view>
-                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qyD-YQ-kFp">
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyD-YQ-kFp">
                                                 <rect key="frame" x="0.0" y="60" width="1024" height="708"/>
                                             </scrollView>
                                         </subviews>
@@ -145,9 +163,15 @@
                     <connections>
                         <outlet property="contentPanel" destination="Gfm-Bs-n4Y" id="hN5-UT-0fN"/>
                         <outlet property="contentScrollView" destination="qyD-YQ-kFp" id="Dy7-4D-L1c"/>
+                        <outlet property="courseBtn" destination="Slr-GD-bDA" id="Hyd-MJ-4FN"/>
+                        <outlet property="homeBtn" destination="iro-xR-HIV" id="pWt-xm-BPk"/>
                         <outlet property="menuPanel" destination="VxW-jN-87Z" id="roG-Es-nRW"/>
                         <outlet property="menuTableView" destination="YVZ-oW-JvZ" id="LhI-qI-b33"/>
                         <outlet property="menuView" destination="VxW-jN-87Z" id="LqF-MU-rW8"/>
+                        <outlet property="teachingMaterialBtn" destination="OU4-e7-sLa" id="0UP-g1-AHc"/>
+                        <outlet property="timeLineBtn" destination="peX-rS-msY" id="R8e-kh-5eL"/>
+                        <outlet property="topicsBtn" destination="ZPF-aB-yW6" id="uSY-Pz-L9G"/>
+                        <outlet property="videoBtn" destination="kws-Zs-oP8" id="6Ir-hO-gak"/>
                         <outlet property="view" destination="eZ1-01-EnO" id="FvS-dR-81Z"/>
                     </connections>
                 </viewController>

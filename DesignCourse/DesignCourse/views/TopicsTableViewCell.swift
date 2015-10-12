@@ -45,8 +45,8 @@ class TopicsTableViewCell: UIView {
     }
     
     override func drawRect(rect: CGRect) {
-        var retinaScreen:Bool = (UIScreen.mainScreen().currentMode?.size.width == 768)
-        
+        let retinaScreen:Bool = (UIScreen.mainScreen().currentMode?.size.width == 768)
+        print(retinaScreen)
         timeTextLayer = CATextLayer()
         
         timeTextLayer.frame = CGRectMake(20.0, 20.0, 200, 15)
@@ -108,13 +108,13 @@ class TopicsTableViewCell: UIView {
         self.layer.addSublayer(imageLayer4)
         
         iconLayer = CALayer()
-        iconLayer.frame = CGRectMake(20, 310, 18, 15)
+        iconLayer.frame = CGRectMake(20, 340, 18, 15)
         iconLayer.contents = UIImage(named: "worksIcon")?.CGImage
         self.layer.addSublayer(iconLayer)
         
         shareTextLayer = CATextLayer()
-        shareTextLayer.frame = CGRectMake(40, 310, 100, 15)
-        shareTextLayer.font = UIFont.init(name: "Courier-Bold", size: 14.0)
+        shareTextLayer.frame = CGRectMake(40, 340, 100, 15)
+        shareTextLayer.fontSize = 14.0
         shareTextLayer.foregroundColor = UIColor(red: 122/255.0, green: 124/255.0, blue: 127/255.0, alpha: 1.0).CGColor
         self.layer.addSublayer(shareTextLayer)
         

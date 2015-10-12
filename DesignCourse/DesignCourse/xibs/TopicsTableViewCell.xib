@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8191"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TopicsItemCell" customModule="DesignCourse" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="980" height="386"/>
+            <rect key="frame" x="0.0" y="0.0" width="980" height="406"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jBv-wO-moJ" customClass="TopicsTableViewCell" customModule="DesignCourse" customModuleProvider="target">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jBv-wO-moJ" customClass="TopicsTableViewCell" customModule="DesignCourse" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="980" height="386"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="jBv-wO-moJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9yr-X7-wQj"/>
+                <constraint firstAttribute="bottom" secondItem="jBv-wO-moJ" secondAttribute="bottom" constant="20" id="UxE-xu-WqY"/>
+                <constraint firstAttribute="trailing" secondItem="jBv-wO-moJ" secondAttribute="trailing" id="fce-2s-X0t"/>
+                <constraint firstItem="jBv-wO-moJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qt1-1s-d5O"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="topicsItemCell" destination="jBv-wO-moJ" id="NAt-tc-hm8"/>

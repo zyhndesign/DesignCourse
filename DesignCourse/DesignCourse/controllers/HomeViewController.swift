@@ -8,7 +8,15 @@
 
 import UIKit
 
-class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate {
+    
+    
+    @IBOutlet weak var homeBtn: UIButton!
+    @IBOutlet weak var topicsBtn: UIButton!
+    @IBOutlet weak var courseBtn: UIButton!
+    @IBOutlet weak var videoBtn: UIButton!
+    @IBOutlet weak var teachingMaterialBtn: UIButton!
+    @IBOutlet weak var timeLineBtn: UIButton!
     
     @IBOutlet weak var menuView: UIView!
     @IBOutlet weak var menuTableView: UITableView!
@@ -22,6 +30,9 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     var coursewareViewController:UIViewController!;
     var videoViewController:UIViewController!;
     var teachingMaterialViewController:UIViewController!;
+    var timeLineViewController:UIViewController;
+    
+    let color:UIColor = UIColor(red: 19/255.0, green: 31/255.0, blue: 54/255.0, alpha: 1)
     
     lazy var menuItems: NSArray = {
         let path = NSBundle.mainBundle().pathForResource("MenuItems", ofType: "plist")
@@ -36,6 +47,8 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         
         menuTableView.dataSource = self
         menuTableView.delegate = self
+        
+        contentScrollView.delegate = self
         
         let view = UIView()
         view.backgroundColor = UIColor.clearColor()
@@ -67,8 +80,13 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         contentScrollView.addSubview(teachingMaterialViewController.view)
         self.addChildViewController(teachingMaterialViewController)
         
-        contentScrollView.contentSize = CGSizeMake(5120, 708);
-
+        timeLineViewController = TimeLineViewController(nibName:"TimeLineView",bundle:NSBundle.mainBundle())
+        timeLineViewController.view.frame = CGRectMake(5120, 0, 1024, 708)
+        contentScrollView.addSubview(timeLineViewController.view)
+        self.addChildViewController(timeLineViewController)
+        
+        contentScrollView.contentSize = CGSizeMake(6144, 708);
+        homeBtn.backgroundColor = color
     }
     
     override func didReceiveMemoryWarning() {
@@ -153,4 +171,60 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         }
         contentPanel.layer.pop_addAnimation(anim, forKey: "Animation")
     }
+    
+    
+    @IBAction func modelMenuClick(sender: AnyObject) {
+        let button:UIButton = sender as! UIButton
+        clearMenuBtnBg()
+        button.backgroundColor = color
+        
+        contentScrollView.scrollRectToVisible(CGRectMake(CGFloat((button.tag - 1) * 1024), 0, 1024,708), animated: true)
+        
+    }
+    
+    func clearMenuBtnBg(){
+        homeBtn.backgroundColor = UIColor.clearColor()
+        topicsBtn.backgroundColor = UIColor.clearColor()
+        courseBtn.backgroundColor = UIColor.clearColor()
+        videoBtn.backgroundColor = UIColor.clearColor()
+        teachingMaterialBtn.backgroundColor = UIColor.clearColor()
+        timeLineBtn.backgroundColor = UIColor.clearColor()
+    }
+    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        clearMenuBtnBg()
+        let pageWidth:CGFloat = scrollView.frame.size.width;
+        // 根据当前的x坐标和页宽度计算出当前页数
+        let currentPage:Int = Int((scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
+        print(currentPage)
+        
+        if (currentPage == 0){
+            homeBtn.backgroundColor = color
+        }
+        else if (currentPage == 1){
+            topicsBtn.backgroundColor = color
+        }
+        else if (currentPage == 2){
+            courseBtn.backgroundColor = color
+        }
+        else if (currentPage == 3){
+            videoBtn.backgroundColor = color
+        }
+        else if (currentPage == 4){
+            teachingMaterialBtn.backgroundColor = color
+        }
+        else if (currentPage == 5){
+            timeLineBtn.backgroundColor = color
+        }
+    }
+    
+    func scrollViewDidEndDragging(scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+       
+    }
+    
+    func scrollViewDidEndScrollingAnimation(scrollView: UIScrollView) {
+        
+        
+    }
+    
 }

@@ -29,7 +29,7 @@ class HomeTopicsView: UIView {
     override func drawRect(rect: CGRect) {
         let imageLayer:CALayer = CALayer.init()
         imageLayer.frame = rect
-        
+        imageLayer.contentsGravity = kCAGravityResize
         let URL = NSURL(string: imageUrl)!
         let fetcher = NetworkFetcher<UIImage>(URL: URL)
         cache.fetch(fetcher: fetcher).onSuccess { image in
@@ -38,15 +38,15 @@ class HomeTopicsView: UIView {
         self.layer.addSublayer(imageLayer)
         
         let titleLayer:CATextLayer = CATextLayer.init()
-        titleLayer.frame = CGRectMake(0, rect.height/2 - 20, rect.width, 15)
+        titleLayer.frame = CGRectMake(0, rect.height/2 - 30, rect.width, 35)
         titleLayer.string = title
-        titleLayer.font = UIFont.init(name: "Courier-Bold", size: 14.0)
+        titleLayer.fontSize = 24.0
         titleLayer.alignmentMode = kCAAlignmentCenter
         self.layer.addSublayer(titleLayer)
         
         let timeLayer:CATextLayer = CATextLayer.init()
-        timeLayer.frame = CGRectMake(0, rect.height/2, rect.width, 15)
-        timeLayer.string = title
+        timeLayer.frame = CGRectMake(0, rect.height/2 + 10, rect.width, 15)
+        timeLayer.string = time
         timeLayer.fontSize = 14.0
         timeLayer.foregroundColor = UIColor(red: 247/255.0, green: 182/255.0, blue: 0, alpha: 1).CGColor
         timeLayer.alignmentMode = kCAAlignmentCenter

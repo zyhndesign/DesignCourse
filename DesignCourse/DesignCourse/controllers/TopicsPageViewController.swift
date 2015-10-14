@@ -15,6 +15,9 @@ class TopicsPageViewController: UIViewController,UITableViewDelegate,UITableView
     
     var topicsModel:TopicsModel!
     
+    let searchPanel:UIView = UIView(frame: CGRectMake(220, -60, 584, 60))
+    var searchPanelAppear:Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,6 +27,25 @@ class TopicsPageViewController: UIViewController,UITableViewDelegate,UITableView
         tableView.dataSource = self
         
         tableView.registerNib(nib, forCellReuseIdentifier: "customCell")
+        
+        
+        searchPanel.backgroundColor = UIColor.whiteColor()
+        
+        let iconLayer:CALayer = CALayer()
+        iconLayer.contents = UIImage(named: "searchIcon")?.CGImage
+        iconLayer.frame = CGRectMake(10, 20, 20, 20)
+        searchPanel.layer.addSublayer(iconLayer)
+        
+        let searchText:UITextField = UITextField(frame: CGRectMake(40, 10, 484, 40))
+        searchText.placeholder = "搜索......"
+        searchPanel.addSubview(searchText)
+        
+        searchPanel.layer.borderWidth = 1;
+        searchPanel.layer.borderColor = UIColor(red: 247/255.0, green: 182/255.0, blue: 0, alpha: 1).CGColor;
+        
+        self.view.addSubview(searchPanel)
+        
+        
         
         topicsModel = TopicsModel()
         topicsModel.timeTextValue = "2015-01-01"
@@ -62,6 +84,28 @@ class TopicsPageViewController: UIViewController,UITableViewDelegate,UITableView
     }
     
     @IBAction func SearchBtnClick(sender: AnyObject) {
+        print("click...")
+        view.pop_removeAllAnimations();
+        let anim:POPSpringAnimation = POPSpringAnimation.init(propertyNamed:kPOPLayerPosition)
+        
+        anim.springSpeed = 10
+
+        if (searchPanelAppear){
+            searchPanelAppear = false
+            anim.springBounciness = 0
+            anim.toValue =  NSValue(CGPoint:CGPointMake(searchPanel.center.x, searchPanel.center.y - 250))
+        }
+        else{
+            anim.toValue =  NSValue(CGPoint:CGPointMake(searchPanel.center.x, searchPanel.center.y + 250))
+            searchPanelAppear = true
+            anim.springBounciness = 10
+        }
+        anim.completionBlock = {(animation, finished) in
+            if (finished){
+                
+            }
+        }
+        searchPanel.layer.pop_addAnimation(anim, forKey: "Animation")
         
     }
 }

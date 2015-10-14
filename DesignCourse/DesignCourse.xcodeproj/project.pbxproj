@@ -56,6 +56,9 @@
 		DB75CDCF1BCD040300C28ECD /* TimelineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDCE1BCD040300C28ECD /* TimelineModel.swift */; settings = {ASSET_TAGS = (); }; };
 		DB75CDD11BCD04B200C28ECD /* TimeLineCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDD01BCD04B200C28ECD /* TimeLineCellView.swift */; settings = {ASSET_TAGS = (); }; };
 		DB75CDD31BCDECE700C28ECD /* TimeLineItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB75CDD21BCDECE700C28ECD /* TimeLineItemCell.xib */; settings = {ASSET_TAGS = (); }; };
+		DB75CDD51BCE044200C28ECD /* TopicDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB75CDD41BCE044200C28ECD /* TopicDetailView.xib */; settings = {ASSET_TAGS = (); }; };
+		DB75CDD71BCE069D00C28ECD /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDD61BCE069D00C28ECD /* BackButton.swift */; settings = {ASSET_TAGS = (); }; };
+		DB75CDD91BCE079200C28ECD /* TopicsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDD81BCE079200C28ECD /* TopicsDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		DB8395291BC7480300316405 /* TopicsPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8395281BC7480300316405 /* TopicsPageView.xib */; settings = {ASSET_TAGS = (); }; };
 		DB83952B1BC7481000316405 /* TopicsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB83952A1BC7481000316405 /* TopicsPageViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		DB83952D1BC74A4600316405 /* CoursewareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB83952C1BC74A4600316405 /* CoursewareView.xib */; settings = {ASSET_TAGS = (); }; };
@@ -260,6 +263,9 @@
 		DB75CDCE1BCD040300C28ECD /* TimelineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineModel.swift; sourceTree = "<group>"; };
 		DB75CDD01BCD04B200C28ECD /* TimeLineCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineCellView.swift; sourceTree = "<group>"; };
 		DB75CDD21BCDECE700C28ECD /* TimeLineItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeLineItemCell.xib; sourceTree = "<group>"; };
+		DB75CDD41BCE044200C28ECD /* TopicDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicDetailView.xib; sourceTree = "<group>"; };
+		DB75CDD61BCE069D00C28ECD /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		DB75CDD81BCE079200C28ECD /* TopicsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsDetailViewController.swift; sourceTree = "<group>"; };
 		DB8395281BC7480300316405 /* TopicsPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicsPageView.xib; sourceTree = "<group>"; };
 		DB83952A1BC7481000316405 /* TopicsPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsPageViewController.swift; sourceTree = "<group>"; };
 		DB83952C1BC74A4600316405 /* CoursewareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoursewareView.xib; sourceTree = "<group>"; };
@@ -344,6 +350,7 @@
 				DB8395321BC74A8900316405 /* VideoViewController.swift */,
 				DB8395361BC74ADA00316405 /* TeachingMaterialViewController.swift */,
 				DB75CDBE1BCBBD9500C28ECD /* TimeLineViewController.swift */,
+				DB75CDD81BCE079200C28ECD /* TopicsDetailViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -438,6 +445,7 @@
 				DB75CDC01BCBBDD300C28ECD /* TimeLineView.xib */,
 				DB75CDC21BCC929900C28ECD /* VideoItemCell.xib */,
 				DB75CDD21BCDECE700C28ECD /* TimeLineItemCell.xib */,
+				DB75CDD41BCE044200C28ECD /* TopicDetailView.xib */,
 			);
 			path = xibs;
 			sourceTree = "<group>";
@@ -472,6 +480,7 @@
 			isa = PBXGroup;
 			children = (
 				DB575FB61BC7BB660068E96F /* SearchButton.swift */,
+				DB75CDD61BCE069D00C28ECD /* BackButton.swift */,
 			);
 			path = controls;
 			sourceTree = "<group>";
@@ -740,6 +749,7 @@
 				DB75CDD31BCDECE700C28ECD /* TimeLineItemCell.xib in Resources */,
 				DB83952D1BC74A4600316405 /* CoursewareView.xib in Resources */,
 				DB8395311BC74A7400316405 /* VideoView.xib in Resources */,
+				DB75CDD51BCE044200C28ECD /* TopicDetailView.xib in Resources */,
 				DB75CDB91BCB8F9000C28ECD /* CourseItemCell.xib in Resources */,
 				DB4BA9821BC5FEC800E6C0FD /* HomePageView.xib in Resources */,
 			);
@@ -780,6 +790,7 @@
 				DB575FBB1BC899CE0068E96F /* TopicsTableViewCell.swift in Sources */,
 				DB4BA9851BC6031C00E6C0FD /* HomeItemView.swift in Sources */,
 				DB2E95CE1BB8EB3E00E4DBD0 /* POPAnimationTracer.mm in Sources */,
+				DB75CDD71BCE069D00C28ECD /* BackButton.swift in Sources */,
 				DB997BC01BB3D8480037FD93 /* AppDelegate.swift in Sources */,
 				DB75CDC51BCC92C400C28ECD /* VideoItemCell.swift in Sources */,
 				DB83952B1BC7481000316405 /* TopicsPageViewController.swift in Sources */,
@@ -801,6 +812,7 @@
 				DB2E95D01BB8EB3E00E4DBD0 /* POPBasicAnimation.mm in Sources */,
 				DBFFAA541BC8C42900D31F1B /* TopicsItemCell.swift in Sources */,
 				DB83952F1BC74A5900316405 /* CoursewareViewController.swift in Sources */,
+				DB75CDD91BCE079200C28ECD /* TopicsDetailViewController.swift in Sources */,
 				DB4BA9871BC61C4300E6C0FD /* HomeContentPanelViewController.swift in Sources */,
 				DB75CDBF1BCBBD9500C28ECD /* TimeLineViewController.swift in Sources */,
 				DB2E95D51BB8EB3E00E4DBD0 /* POPLayerExtras.mm in Sources */,

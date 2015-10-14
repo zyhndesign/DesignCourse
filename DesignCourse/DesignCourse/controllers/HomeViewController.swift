@@ -30,7 +30,7 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     var coursewareViewController:UIViewController!;
     var videoViewController:UIViewController!;
     var teachingMaterialViewController:UIViewController!;
-    var timeLineViewController:UIViewController;
+    var timeLineViewController:UIViewController!;
     
     let color:UIColor = UIColor(red: 19/255.0, green: 31/255.0, blue: 54/255.0, alpha: 1)
     
@@ -194,9 +194,7 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     func scrollViewDidScroll(scrollView: UIScrollView) {
         clearMenuBtnBg()
         let pageWidth:CGFloat = scrollView.frame.size.width;
-        // 根据当前的x坐标和页宽度计算出当前页数
-        let currentPage:Int = Int((scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
-        print(currentPage)
+        let currentPage:Int = Int(floor((scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1);
         
         if (currentPage == 0){
             homeBtn.backgroundColor = color

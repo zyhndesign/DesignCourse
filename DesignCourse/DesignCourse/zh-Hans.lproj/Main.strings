@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "C5g-Fb-fhg"; */
+"C5g-Fb-fhg.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "教材"; ObjectID = "OU4-e7-sLa"; */
+"OU4-e7-sLa.normalTitle" = "教材";
+
+/* Class = "UILabel"; text = "图形用户界面设计"; ObjectID = "Rd9-9T-F3N"; */
+"Rd9-9T-F3N.text" = "图形用户界面设计";
+
+/* Class = "UIButton"; normalTitle = "课件"; ObjectID = "Slr-GD-bDA"; */
+"Slr-GD-bDA.normalTitle" = "课件";
+
+/* Class = "UIButton"; normalTitle = "专题"; ObjectID = "ZPF-aB-yW6"; */
+"ZPF-aB-yW6.normalTitle" = "专题";
+
+/* Class = "UIButton"; normalTitle = "首页"; ObjectID = "iro-xR-HIV"; */
+"iro-xR-HIV.normalTitle" = "首页";
+
+/* Class = "UIButton"; normalTitle = "视频"; ObjectID = "kws-Zs-oP8"; */
+"kws-Zs-oP8.normalTitle" = "视频";
+
+/* Class = "UIButton"; normalTitle = "时间线"; ObjectID = "peX-rS-msY"; */
+"peX-rS-msY.normalTitle" = "时间线";
+
+/* Class = "UILabel"; text = "其他课程"; ObjectID = "zc3-Yd-3wE"; */
+"zc3-Yd-3wE.text" = "其他课程";

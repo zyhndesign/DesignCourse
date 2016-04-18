@@ -177,8 +177,14 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         let button:UIButton = sender as! UIButton
         clearMenuBtnBg()
         button.backgroundColor = color
-        
+        contentScrollView.delegate = nil
         contentScrollView.scrollRectToVisible(CGRectMake(CGFloat((button.tag - 1) * 1024), 0, 1024,708), animated: true)
+        let time: NSTimeInterval = 0.5
+        let delay = dispatch_time(DISPATCH_TIME_NOW,
+            Int64(time * Double(NSEC_PER_SEC)))
+        dispatch_after(delay, dispatch_get_main_queue()) {
+            self.contentScrollView.delegate = self
+        }
         
     }
     

@@ -10,5 +10,5 @@
 #define DesignCourse_Bridging_Header_h
 
 #import "libs/pop/POP.h"
-
+#import "libs/iKYLoadingHubView/iKYLoadingHubView.h"
 #endif /* DesignCourse_Bridging_Header_h */

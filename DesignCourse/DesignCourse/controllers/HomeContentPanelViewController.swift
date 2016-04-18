@@ -17,6 +17,8 @@ class HomeContentPanelViewController: UIViewController {
     
     var topicsDetailViewController:TopicsDetailViewController!
     
+    let loadingHubView:iKYLoadingHubView = iKYLoadingHubView.init(frame:CGRectMake((UIScreen.mainScreen().bounds.size.width - 150) / 2, (UIScreen.mainScreen().bounds.size.height - 150) / 2, 110, 110))
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -45,6 +47,16 @@ class HomeContentPanelViewController: UIViewController {
             homeItemView.backgroundColor = UIColor.whiteColor()
             self.view.addSubview(homeItemView)
         }
+        
+        self.view.addSubview(loadingHubView)
+        loadingHubView.showHub()
+        let time: NSTimeInterval = 2.0
+        let delay = dispatch_time(DISPATCH_TIME_NOW,
+            Int64(time * Double(NSEC_PER_SEC)))
+        dispatch_after(delay, dispatch_get_main_queue()) {
+            self.loadingHubView.dismissHub()
+        }
+        
     }
     
     func tappedView(){

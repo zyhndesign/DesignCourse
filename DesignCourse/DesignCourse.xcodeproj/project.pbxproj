@@ -7,66 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB2E957A1BB8DB8700E4DBD0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95791BB8DB8700E4DBD0 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		DB2E95C71BB8EB3E00E4DBD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB2E958F1BB8EB3E00E4DBD0 /* InfoPlist.strings */; settings = {ASSET_TAGS = (); }; };
-		DB2E95C81BB8EB3E00E4DBD0 /* pop-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB2E95911BB8EB3E00E4DBD0 /* pop-Info.plist */; settings = {ASSET_TAGS = (); }; };
-		DB2E95C91BB8EB3E00E4DBD0 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95961BB8EB3E00E4DBD0 /* POPAnimatableProperty.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95CA1BB8EB3E00E4DBD0 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95981BB8EB3E00E4DBD0 /* POPAnimation.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95CB1BB8EB3E00E4DBD0 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E959A1BB8EB3E00E4DBD0 /* POPAnimationEvent.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95CC1BB8EB3E00E4DBD0 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E959D1BB8EB3E00E4DBD0 /* POPAnimationExtras.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95CD1BB8EB3E00E4DBD0 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95A11BB8EB3E00E4DBD0 /* POPAnimationRuntime.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95CE1BB8EB3E00E4DBD0 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95A31BB8EB3E00E4DBD0 /* POPAnimationTracer.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95CF1BB8EB3E00E4DBD0 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95A61BB8EB3E00E4DBD0 /* POPAnimator.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95D01BB8EB3E00E4DBD0 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95A91BB8EB3E00E4DBD0 /* POPBasicAnimation.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95D11BB8EB3E00E4DBD0 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95AC1BB8EB3E00E4DBD0 /* POPCGUtils.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95D21BB8EB3E00E4DBD0 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95AE1BB8EB3E00E4DBD0 /* POPCustomAnimation.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95D31BB8EB3E00E4DBD0 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95B01BB8EB3E00E4DBD0 /* POPDecayAnimation.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95D41BB8EB3E00E4DBD0 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95B41BB8EB3E00E4DBD0 /* POPGeometry.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95D51BB8EB3E00E4DBD0 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95B61BB8EB3E00E4DBD0 /* POPLayerExtras.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95D61BB8EB3E00E4DBD0 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95B81BB8EB3E00E4DBD0 /* POPMath.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95D71BB8EB3E00E4DBD0 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95BA1BB8EB3E00E4DBD0 /* POPPropertyAnimation.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95D81BB8EB3E00E4DBD0 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95BD1BB8EB3E00E4DBD0 /* POPSpringAnimation.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95D91BB8EB3E00E4DBD0 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95C11BB8EB3E00E4DBD0 /* POPVector.mm */; settings = {ASSET_TAGS = (); }; };
-		DB2E95DA1BB8EB3E00E4DBD0 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95C41BB8EB3E00E4DBD0 /* TransformationMatrix.cpp */; settings = {ASSET_TAGS = (); }; };
-		DB2E95DF1BBB775B00E4DBD0 /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB2E95DE1BBB775B00E4DBD0 /* MenuItems.plist */; settings = {ASSET_TAGS = (); }; };
-		DB2E95E31BBB7F9C00E4DBD0 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95E21BBB7F9C00E4DBD0 /* MenuItemCell.swift */; settings = {ASSET_TAGS = (); }; };
-		DB4BA9821BC5FEC800E6C0FD /* HomePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA9811BC5FEC800E6C0FD /* HomePageView.xib */; settings = {ASSET_TAGS = (); }; };
-		DB4BA9851BC6031C00E6C0FD /* HomeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4BA9841BC6031C00E6C0FD /* HomeItemView.swift */; settings = {ASSET_TAGS = (); }; };
-		DB4BA9871BC61C4300E6C0FD /* HomeContentPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4BA9861BC61C4300E6C0FD /* HomeContentPanelViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		DB4BA9891BC61FAF00E6C0FD /* HomeTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4BA9881BC61FAF00E6C0FD /* HomeTopView.swift */; settings = {ASSET_TAGS = (); }; };
+		DB2E957A1BB8DB8700E4DBD0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95791BB8DB8700E4DBD0 /* HomeViewController.swift */; };
+		DB2E95C71BB8EB3E00E4DBD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB2E958F1BB8EB3E00E4DBD0 /* InfoPlist.strings */; };
+		DB2E95C81BB8EB3E00E4DBD0 /* pop-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB2E95911BB8EB3E00E4DBD0 /* pop-Info.plist */; };
+		DB2E95C91BB8EB3E00E4DBD0 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95961BB8EB3E00E4DBD0 /* POPAnimatableProperty.mm */; };
+		DB2E95CA1BB8EB3E00E4DBD0 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95981BB8EB3E00E4DBD0 /* POPAnimation.mm */; };
+		DB2E95CB1BB8EB3E00E4DBD0 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E959A1BB8EB3E00E4DBD0 /* POPAnimationEvent.mm */; };
+		DB2E95CC1BB8EB3E00E4DBD0 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E959D1BB8EB3E00E4DBD0 /* POPAnimationExtras.mm */; };
+		DB2E95CD1BB8EB3E00E4DBD0 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95A11BB8EB3E00E4DBD0 /* POPAnimationRuntime.mm */; };
+		DB2E95CE1BB8EB3E00E4DBD0 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95A31BB8EB3E00E4DBD0 /* POPAnimationTracer.mm */; };
+		DB2E95CF1BB8EB3E00E4DBD0 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95A61BB8EB3E00E4DBD0 /* POPAnimator.mm */; };
+		DB2E95D01BB8EB3E00E4DBD0 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95A91BB8EB3E00E4DBD0 /* POPBasicAnimation.mm */; };
+		DB2E95D11BB8EB3E00E4DBD0 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95AC1BB8EB3E00E4DBD0 /* POPCGUtils.mm */; };
+		DB2E95D21BB8EB3E00E4DBD0 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95AE1BB8EB3E00E4DBD0 /* POPCustomAnimation.mm */; };
+		DB2E95D31BB8EB3E00E4DBD0 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95B01BB8EB3E00E4DBD0 /* POPDecayAnimation.mm */; };
+		DB2E95D41BB8EB3E00E4DBD0 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95B41BB8EB3E00E4DBD0 /* POPGeometry.mm */; };
+		DB2E95D51BB8EB3E00E4DBD0 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95B61BB8EB3E00E4DBD0 /* POPLayerExtras.mm */; };
+		DB2E95D61BB8EB3E00E4DBD0 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95B81BB8EB3E00E4DBD0 /* POPMath.mm */; };
+		DB2E95D71BB8EB3E00E4DBD0 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95BA1BB8EB3E00E4DBD0 /* POPPropertyAnimation.mm */; };
+		DB2E95D81BB8EB3E00E4DBD0 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95BD1BB8EB3E00E4DBD0 /* POPSpringAnimation.mm */; };
+		DB2E95D91BB8EB3E00E4DBD0 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95C11BB8EB3E00E4DBD0 /* POPVector.mm */; };
+		DB2E95DA1BB8EB3E00E4DBD0 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95C41BB8EB3E00E4DBD0 /* TransformationMatrix.cpp */; };
+		DB2E95DF1BBB775B00E4DBD0 /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB2E95DE1BBB775B00E4DBD0 /* MenuItems.plist */; };
+		DB2E95E31BBB7F9C00E4DBD0 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E95E21BBB7F9C00E4DBD0 /* MenuItemCell.swift */; };
+		DB4BA9821BC5FEC800E6C0FD /* HomePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA9811BC5FEC800E6C0FD /* HomePageView.xib */; };
+		DB4BA9851BC6031C00E6C0FD /* HomeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4BA9841BC6031C00E6C0FD /* HomeItemView.swift */; };
+		DB4BA9871BC61C4300E6C0FD /* HomeContentPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4BA9861BC61C4300E6C0FD /* HomeContentPanelViewController.swift */; };
+		DB4BA9891BC61FAF00E6C0FD /* HomeTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4BA9881BC61FAF00E6C0FD /* HomeTopView.swift */; };
 		DB4BA98F1BC658D000E6C0FD /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2E95711BB5287B00E4DBD0 /* Haneke.framework */; };
 		DB4BA9901BC658D000E6C0FD /* Haneke.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB2E95711BB5287B00E4DBD0 /* Haneke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DB4BA9931BC658D000E6C0FD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2E95611BB5286F00E4DBD0 /* Alamofire.framework */; };
 		DB4BA9941BC658D000E6C0FD /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB2E95611BB5286F00E4DBD0 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DB575FB71BC7BB660068E96F /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB575FB61BC7BB660068E96F /* SearchButton.swift */; settings = {ASSET_TAGS = (); }; };
-		DB575FBB1BC899CE0068E96F /* TopicsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB575FBA1BC899CE0068E96F /* TopicsTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		DB575FBE1BC8A27A0068E96F /* TopicsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB575FBD1BC8A27A0068E96F /* TopicsModel.swift */; settings = {ASSET_TAGS = (); }; };
-		DB75CDAF1BCB8DEC00C28ECD /* CourseItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDAE1BCB8DEC00C28ECD /* CourseItemCell.swift */; settings = {ASSET_TAGS = (); }; };
-		DB75CDB71BCB8E5100C28ECD /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDB61BCB8E5000C28ECD /* CourseModel.swift */; settings = {ASSET_TAGS = (); }; };
-		DB75CDB91BCB8F9000C28ECD /* CourseItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB75CDB81BCB8F9000C28ECD /* CourseItemCell.xib */; settings = {ASSET_TAGS = (); }; };
-		DB75CDBD1BCB945B00C28ECD /* CourseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDBC1BCB945B00C28ECD /* CourseViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		DB75CDBF1BCBBD9500C28ECD /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDBE1BCBBD9500C28ECD /* TimeLineViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		DB75CDC11BCBBDD300C28ECD /* TimeLineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB75CDC01BCBBDD300C28ECD /* TimeLineView.xib */; settings = {ASSET_TAGS = (); }; };
-		DB75CDC31BCC929900C28ECD /* VideoItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB75CDC21BCC929900C28ECD /* VideoItemCell.xib */; settings = {ASSET_TAGS = (); }; };
-		DB75CDC51BCC92C400C28ECD /* VideoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDC41BCC92C400C28ECD /* VideoItemCell.swift */; settings = {ASSET_TAGS = (); }; };
-		DB75CDC71BCC92F300C28ECD /* VideoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDC61BCC92F300C28ECD /* VideoViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		DB75CDC91BCC932200C28ECD /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDC81BCC932200C28ECD /* VideoModel.swift */; settings = {ASSET_TAGS = (); }; };
-		DB75CDCB1BCC9E2600C28ECD /* TimeLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDCA1BCC9E2600C28ECD /* TimeLineView.swift */; settings = {ASSET_TAGS = (); }; };
-		DB75CDCD1BCD03DE00C28ECD /* TimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDCC1BCD03DE00C28ECD /* TimeLineCell.swift */; settings = {ASSET_TAGS = (); }; };
-		DB75CDCF1BCD040300C28ECD /* TimelineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDCE1BCD040300C28ECD /* TimelineModel.swift */; settings = {ASSET_TAGS = (); }; };
-		DB75CDD11BCD04B200C28ECD /* TimeLineCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDD01BCD04B200C28ECD /* TimeLineCellView.swift */; settings = {ASSET_TAGS = (); }; };
-		DB75CDD31BCDECE700C28ECD /* TimeLineItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB75CDD21BCDECE700C28ECD /* TimeLineItemCell.xib */; settings = {ASSET_TAGS = (); }; };
-		DB75CDD51BCE044200C28ECD /* TopicDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB75CDD41BCE044200C28ECD /* TopicDetailView.xib */; settings = {ASSET_TAGS = (); }; };
-		DB75CDD71BCE069D00C28ECD /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDD61BCE069D00C28ECD /* BackButton.swift */; settings = {ASSET_TAGS = (); }; };
-		DB75CDD91BCE079200C28ECD /* TopicsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDD81BCE079200C28ECD /* TopicsDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		DB8395291BC7480300316405 /* TopicsPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8395281BC7480300316405 /* TopicsPageView.xib */; settings = {ASSET_TAGS = (); }; };
-		DB83952B1BC7481000316405 /* TopicsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB83952A1BC7481000316405 /* TopicsPageViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		DB83952D1BC74A4600316405 /* CoursewareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB83952C1BC74A4600316405 /* CoursewareView.xib */; settings = {ASSET_TAGS = (); }; };
-		DB83952F1BC74A5900316405 /* CoursewareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB83952E1BC74A5900316405 /* CoursewareViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		DB8395311BC74A7400316405 /* VideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8395301BC74A7400316405 /* VideoView.xib */; settings = {ASSET_TAGS = (); }; };
-		DB8395331BC74A8900316405 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8395321BC74A8900316405 /* VideoViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		DB8395351BC74AC900316405 /* TeachingMaterialView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8395341BC74AC900316405 /* TeachingMaterialView.xib */; settings = {ASSET_TAGS = (); }; };
-		DB8395371BC74ADA00316405 /* TeachingMaterialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8395361BC74ADA00316405 /* TeachingMaterialViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DB575FB71BC7BB660068E96F /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB575FB61BC7BB660068E96F /* SearchButton.swift */; };
+		DB575FBB1BC899CE0068E96F /* TopicsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB575FBA1BC899CE0068E96F /* TopicsTableViewCell.swift */; };
+		DB575FBE1BC8A27A0068E96F /* TopicsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB575FBD1BC8A27A0068E96F /* TopicsModel.swift */; };
+		DB75CDAF1BCB8DEC00C28ECD /* CourseItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDAE1BCB8DEC00C28ECD /* CourseItemCell.swift */; };
+		DB75CDB71BCB8E5100C28ECD /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDB61BCB8E5000C28ECD /* CourseModel.swift */; };
+		DB75CDB91BCB8F9000C28ECD /* CourseItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB75CDB81BCB8F9000C28ECD /* CourseItemCell.xib */; };
+		DB75CDBD1BCB945B00C28ECD /* CourseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDBC1BCB945B00C28ECD /* CourseViewCell.swift */; };
+		DB75CDBF1BCBBD9500C28ECD /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDBE1BCBBD9500C28ECD /* TimeLineViewController.swift */; };
+		DB75CDC11BCBBDD300C28ECD /* TimeLineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB75CDC01BCBBDD300C28ECD /* TimeLineView.xib */; };
+		DB75CDC31BCC929900C28ECD /* VideoItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB75CDC21BCC929900C28ECD /* VideoItemCell.xib */; };
+		DB75CDC51BCC92C400C28ECD /* VideoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDC41BCC92C400C28ECD /* VideoItemCell.swift */; };
+		DB75CDC71BCC92F300C28ECD /* VideoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDC61BCC92F300C28ECD /* VideoViewCell.swift */; };
+		DB75CDC91BCC932200C28ECD /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDC81BCC932200C28ECD /* VideoModel.swift */; };
+		DB75CDCB1BCC9E2600C28ECD /* TimeLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDCA1BCC9E2600C28ECD /* TimeLineView.swift */; };
+		DB75CDCD1BCD03DE00C28ECD /* TimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDCC1BCD03DE00C28ECD /* TimeLineCell.swift */; };
+		DB75CDCF1BCD040300C28ECD /* TimelineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDCE1BCD040300C28ECD /* TimelineModel.swift */; };
+		DB75CDD11BCD04B200C28ECD /* TimeLineCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDD01BCD04B200C28ECD /* TimeLineCellView.swift */; };
+		DB75CDD31BCDECE700C28ECD /* TimeLineItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB75CDD21BCDECE700C28ECD /* TimeLineItemCell.xib */; };
+		DB75CDD51BCE044200C28ECD /* TopicDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB75CDD41BCE044200C28ECD /* TopicDetailView.xib */; };
+		DB75CDD71BCE069D00C28ECD /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDD61BCE069D00C28ECD /* BackButton.swift */; };
+		DB75CDD91BCE079200C28ECD /* TopicsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB75CDD81BCE079200C28ECD /* TopicsDetailViewController.swift */; };
+		DB8395291BC7480300316405 /* TopicsPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8395281BC7480300316405 /* TopicsPageView.xib */; };
+		DB83952B1BC7481000316405 /* TopicsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB83952A1BC7481000316405 /* TopicsPageViewController.swift */; };
+		DB83952D1BC74A4600316405 /* CoursewareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB83952C1BC74A4600316405 /* CoursewareView.xib */; };
+		DB83952F1BC74A5900316405 /* CoursewareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB83952E1BC74A5900316405 /* CoursewareViewController.swift */; };
+		DB8395311BC74A7400316405 /* VideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8395301BC74A7400316405 /* VideoView.xib */; };
+		DB8395331BC74A8900316405 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8395321BC74A8900316405 /* VideoViewController.swift */; };
+		DB8395351BC74AC900316405 /* TeachingMaterialView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8395341BC74AC900316405 /* TeachingMaterialView.xib */; };
+		DB8395371BC74ADA00316405 /* TeachingMaterialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8395361BC74ADA00316405 /* TeachingMaterialViewController.swift */; };
+		DB8E16FC1C603DDC007ECEE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB8E16FB1C603DDC007ECEE0 /* InfoPlist.strings */; };
 		DB997BC01BB3D8480037FD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB997BBF1BB3D8480037FD93 /* AppDelegate.swift */; };
 		DB997BC21BB3D8480037FD93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB997BC11BB3D8480037FD93 /* ViewController.swift */; };
 		DB997BC51BB3D8480037FD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB997BC31BB3D8480037FD93 /* Main.storyboard */; };
@@ -74,8 +75,9 @@
 		DB997BCA1BB3D8480037FD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB997BC81BB3D8480037FD93 /* LaunchScreen.storyboard */; };
 		DB997BD51BB3D8480037FD93 /* DesignCourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB997BD41BB3D8480037FD93 /* DesignCourseTests.swift */; };
 		DB997BE01BB3D8480037FD93 /* DesignCourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB997BDF1BB3D8480037FD93 /* DesignCourseUITests.swift */; };
-		DBE1169D1BC8E973006D36C5 /* TopicsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBE1169C1BC8E973006D36C5 /* TopicsTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		DBFFAA541BC8C42900D31F1B /* TopicsItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFFAA531BC8C42900D31F1B /* TopicsItemCell.swift */; settings = {ASSET_TAGS = (); }; };
+		DBE1169D1BC8E973006D36C5 /* TopicsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBE1169C1BC8E973006D36C5 /* TopicsTableViewCell.xib */; };
+		DBEBBDA91BE2FD89002D272B /* iKYLoadingHubView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEBBDA81BE2FD89002D272B /* iKYLoadingHubView.m */; };
+		DBFFAA541BC8C42900D31F1B /* TopicsItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFFAA531BC8C42900D31F1B /* TopicsItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -274,13 +276,15 @@
 		DB8395321BC74A8900316405 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		DB8395341BC74AC900316405 /* TeachingMaterialView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeachingMaterialView.xib; sourceTree = "<group>"; };
 		DB8395361BC74ADA00316405 /* TeachingMaterialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeachingMaterialViewController.swift; sourceTree = "<group>"; };
+		DB8E16F71C603ABD007ECEE0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DB8E16FA1C603BB4007ECEE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		DB8E16FB1C603DDC007ECEE0 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		DB997BBC1BB3D8480037FD93 /* DesignCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB997BBF1BB3D8480037FD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB997BC11BB3D8480037FD93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB997BC41BB3D8480037FD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB997BC61BB3D8480037FD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB997BC91BB3D8480037FD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DB997BCB1BB3D8480037FD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB997BD01BB3D8480037FD93 /* DesignCourseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignCourseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB997BD41BB3D8480037FD93 /* DesignCourseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCourseTests.swift; sourceTree = "<group>"; };
 		DB997BD61BB3D8480037FD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -288,6 +292,8 @@
 		DB997BDF1BB3D8480037FD93 /* DesignCourseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCourseUITests.swift; sourceTree = "<group>"; };
 		DB997BE11BB3D8480037FD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBE1169C1BC8E973006D36C5 /* TopicsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicsTableViewCell.xib; sourceTree = "<group>"; };
+		DBEBBDA71BE2FD89002D272B /* iKYLoadingHubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iKYLoadingHubView.h; sourceTree = "<group>"; };
+		DBEBBDA81BE2FD89002D272B /* iKYLoadingHubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iKYLoadingHubView.m; sourceTree = "<group>"; };
 		DBFFAA531BC8C42900D31F1B /* TopicsItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -358,6 +364,7 @@
 		DB2E958D1BB8EAEF00E4DBD0 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				DBEBBDA61BE2FD89002D272B /* iKYLoadingHubView */,
 				DB2E958E1BB8EB3E00E4DBD0 /* pop */,
 			);
 			path = libs;
@@ -534,8 +541,9 @@
 				DB997BC31BB3D8480037FD93 /* Main.storyboard */,
 				DB997BC61BB3D8480037FD93 /* Assets.xcassets */,
 				DB997BC81BB3D8480037FD93 /* LaunchScreen.storyboard */,
-				DB997BCB1BB3D8480037FD93 /* Info.plist */,
+				DB8E16F91C603BAF007ECEE0 /* Info.plist */,
 				DB2E95DE1BBB775B00E4DBD0 /* MenuItems.plist */,
+				DB8E16FB1C603DDC007ECEE0 /* InfoPlist.strings */,
 			);
 			path = DesignCourse;
 			sourceTree = "<group>";
@@ -556,6 +564,15 @@
 				DB997BE11BB3D8480037FD93 /* Info.plist */,
 			);
 			path = DesignCourseUITests;
+			sourceTree = "<group>";
+		};
+		DBEBBDA61BE2FD89002D272B /* iKYLoadingHubView */ = {
+			isa = PBXGroup;
+			children = (
+				DBEBBDA71BE2FD89002D272B /* iKYLoadingHubView.h */,
+				DBEBBDA81BE2FD89002D272B /* iKYLoadingHubView.m */,
+			);
+			path = iKYLoadingHubView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -648,6 +665,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = DB997BB31BB3D8480037FD93;
 			productRefGroup = DB997BBD1BB3D8480037FD93 /* Products */;
@@ -742,6 +760,7 @@
 				DB75CDC11BCBBDD300C28ECD /* TimeLineView.xib in Resources */,
 				DB2E95DF1BBB775B00E4DBD0 /* MenuItems.plist in Resources */,
 				DB997BC71BB3D8480037FD93 /* Assets.xcassets in Resources */,
+				DB8E16FC1C603DDC007ECEE0 /* InfoPlist.strings in Resources */,
 				DB2E95C81BB8EB3E00E4DBD0 /* pop-Info.plist in Resources */,
 				DB8395351BC74AC900316405 /* TeachingMaterialView.xib in Resources */,
 				DB8395291BC7480300316405 /* TopicsPageView.xib in Resources */,
@@ -793,6 +812,7 @@
 				DB75CDD71BCE069D00C28ECD /* BackButton.swift in Sources */,
 				DB997BC01BB3D8480037FD93 /* AppDelegate.swift in Sources */,
 				DB75CDC51BCC92C400C28ECD /* VideoItemCell.swift in Sources */,
+				DBEBBDA91BE2FD89002D272B /* iKYLoadingHubView.m in Sources */,
 				DB83952B1BC7481000316405 /* TopicsPageViewController.swift in Sources */,
 				DB2E95D41BB8EB3E00E4DBD0 /* POPGeometry.mm in Sources */,
 				DB2E95DA1BB8EB3E00E4DBD0 /* TransformationMatrix.cpp in Sources */,
@@ -871,8 +891,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				DB2E95901BB8EB3E00E4DBD0 /* en */,
+				DB8E16F71C603ABD007ECEE0 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB8E16F91C603BAF007ECEE0 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8E16FA1C603BB4007ECEE0 /* Base */,
+			);
+			name = Info.plist;
 			sourceTree = "<group>";
 		};
 		DB997BC31BB3D8480037FD93 /* Main.storyboard */ = {
@@ -911,7 +940,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ling Li (4366PRAT2A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ling Li (4366PRAT2A)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -930,9 +960,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "116ee8af-a112-4ced-8315-626932defc31";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -956,7 +987,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ling Li (4366PRAT2A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ling Li (4366PRAT2A)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -969,8 +1001,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "116ee8af-a112-4ced-8315-626932defc31";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -981,12 +1014,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ling Li (4366PRAT2A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ling Li (4366PRAT2A)";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DesignCourse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zy.DesignCourse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "116ee8af-a112-4ced-8315-626932defc31";
 				SWIFT_OBJC_BRIDGING_HEADER = "DesignCourse/DesignCourse-Bridging-Header.h";
 			};
 			name = Debug;
@@ -995,12 +1031,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ling Li (4366PRAT2A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ling Li (4366PRAT2A)";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DesignCourse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zy.DesignCourse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "116ee8af-a112-4ced-8315-626932defc31";
 				SWIFT_OBJC_BRIDGING_HEADER = "DesignCourse/DesignCourse-Bridging-Header.h";
 			};
 			name = Release;
